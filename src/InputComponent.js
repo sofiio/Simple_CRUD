@@ -52,7 +52,7 @@ function InputComponent({ contacts, setContacts }) {
             name="fullName"
             required="required"
             placeholder="Enter a name ... "
-            className="p-2 w-10 sm:w-32 md:w-40 lg:w-64"
+            className="p-2 w-24 sm:w-32 md:w-40 lg:w-64"
             onChange={handeleAddFormChange}
           />
           <input
@@ -60,7 +60,7 @@ function InputComponent({ contacts, setContacts }) {
             name="address"
             required="required"
             placeholder="Enter a address ... "
-            className="p-2 w-10 sm:w-32 md:w-40 lg:w-64"
+            className="p-2 w-24 sm:w-32 md:w-40 lg:w-64"
             onChange={handeleAddFormChange}
           />
           <input
@@ -68,7 +68,7 @@ function InputComponent({ contacts, setContacts }) {
             name="phoneNumber"
             required="required"
             placeholder="Enter a phone number ... "
-            className="p-2 w-10 sm:w-32 md:w-40 lg:w-64"
+            className="p-2 w-24 sm:w-32 md:w-40 lg:w-64"
             onChange={handeleAddFormChange}
           />
           <input
@@ -76,7 +76,7 @@ function InputComponent({ contacts, setContacts }) {
             name="email"
             required="required"
             placeholder="Enter a email ... "
-            className="p-2 w-10 sm:w-32 md:w-40 lg:w-64"
+            className="p-2 w-24 sm:w-32 md:w-40 lg:w-64"
             onChange={handeleAddFormChange}
           />
           <button

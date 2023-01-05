@@ -118,19 +118,19 @@ function Table() {
         <table className="  border-slate-300 text-white mt-10">
           <thead className=" border-slate-300">
             <tr className="bg-green-800">
-              <th className="border border-slate-300 w-40">
+              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64">
                 <strong>Name</strong>
               </th>
-              <th className="border border-slate-300 w-40 ">
+              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64 ">
                 <strong>Adress</strong>
               </th>
-              <th className="border border-slate-300 w-40">
+              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64">
                 <strong>Phone Number</strong>
               </th>
-              <th className="border border-slate-300 w-40">
+              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64">
                 <strong>Email</strong>
               </th>
-              <th className="border border-slate-300 w-40">
+              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64">
                 <strong>Actions</strong>
               </th>
             </tr>
