@@ -114,23 +114,23 @@ function Table() {
 
   return (
     <form onSubmit={handleEditFormSubmit}>
-      <div className="max-w-[1640px] mx-auto p-4 text-center justify-center flex justify-items-center ">
+      <div className="max-w-[1640px] mx-auto  text-center justify-center flex justify-items-center">
         <table className="  border-slate-300 text-white mt-10">
           <thead className=" border-slate-300">
-            <tr className="bg-green-800">
-              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64">
+            <tr className="bg-green-800 ">
+              <th className="border border-slate-300">
                 <strong>Name</strong>
               </th>
-              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64 ">
+              <th className="border border-slate-300 ">
                 <strong>Adress</strong>
               </th>
-              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64">
+              <th className="border border-slate-300 ">
                 <strong>Phone Number</strong>
               </th>
-              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64">
+              <th className="border border-slate-300 ">
                 <strong>Email</strong>
               </th>
-              <th className="border border-slate-300 w-24 sm:w-32 md:w-40 lg:w-64">
+              <th className="border border-slate-300 ">
                 <strong>Actions</strong>
               </th>
             </tr>
