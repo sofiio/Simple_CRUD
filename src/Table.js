@@ -114,9 +114,9 @@ function Table() {
 
   return (
     <form onSubmit={handleEditFormSubmit}>
-      <div className="max-w-[1640px] mx-auto  text-center justify-center flex justify-items-center">
-        <table className="  border-slate-300 text-white mt-10">
-          <thead className=" border-slate-300">
+      <div className="max-w-[1640px]  mx-auto p-4  text-center lg:justify-center flex  overflow-x-auto ">
+        <table className="  border-slate-300 text-white mt-10 ">
+          <thead className=" border-slate-300 w-auto">
             <tr className="bg-green-800 ">
               <th className="border border-slate-300">
                 <strong>Name</strong>
