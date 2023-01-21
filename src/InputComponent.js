@@ -14,13 +14,15 @@ function InputComponent({ contacts, setContacts }) {
 
   // second create function to save new contact
 
-  const handeleAddFormChange = (event) => {
+  const handleAddFormChange = (event) => {
     event.preventDefault();
 
     const fieldName = event.target.getAttribute("name");
     const fieldValue = event.target.value;
+
     const newFormData = { ...addFormData };
     newFormData[fieldName] = fieldValue;
+
     setAddFormData(newFormData);
   };
 
@@ -36,6 +38,7 @@ function InputComponent({ contacts, setContacts }) {
       phoneNumber: addFormData.phoneNumber,
       email: addFormData.email,
     };
+
     const newContacts = [...contacts, newContact];
     setContacts(newContacts);
   };
@@ -53,7 +56,7 @@ function InputComponent({ contacts, setContacts }) {
             required="required"
             placeholder="Enter a name ... "
             className="p-2 w-20 sm:w-32 md:w-40 lg:w-64"
-            onChange={handeleAddFormChange}
+            onChange={handleAddFormChange}
           />
           <input
             type="text"
@@ -61,7 +64,7 @@ function InputComponent({ contacts, setContacts }) {
             required="required"
             placeholder="Enter a address ... "
             className="p-2 w-20 sm:w-32 md:w-40 lg:w-64"
-            onChange={handeleAddFormChange}
+            onChange={handleAddFormChange}
           />
           <input
             type="text"
@@ -69,7 +72,7 @@ function InputComponent({ contacts, setContacts }) {
             required="required"
             placeholder="Enter a phone number ... "
             className="p-2 w-20 sm:w-32 md:w-40 lg:w-64"
-            onChange={handeleAddFormChange}
+            onChange={handleAddFormChange}
           />
           <input
             type="text"
@@ -77,7 +80,7 @@ function InputComponent({ contacts, setContacts }) {
             required="required"
             placeholder="Enter a email ... "
             className="p-2 w-20 sm:w-32 md:w-40 lg:w-64"
-            onChange={handeleAddFormChange}
+            onChange={handleAddFormChange}
           />
           <button
             type="submit"
@@ -87,8 +90,6 @@ function InputComponent({ contacts, setContacts }) {
           </button>
         </form>
       </div>
-
-      <p className="mt-60">2023</p>
     </div>
   );
 }
